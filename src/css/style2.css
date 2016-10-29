@@ -1,0 +1,45 @@
+.test .test2 {
+  color: #333; }
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  font-family: sans-serif;
+  transform: scale(0.7);
+  overflow: hidden; }
+
+.app-body {
+  position: absolute;
+  margin: auto;
+  right: 50px;
+  left: 50px;
+  top: 50px;
+  width: 750px;
+  height: 1333px;
+  background: url(../img/4.png) no-repeat;
+  border-radius: 10px; }
+  .app-body h1 {
+    font-size: 20px;
+    margin: 10px 0;
+    text-align: center;
+    color: #fff;
+    font-weight: normal;
+    opacity: 0.3; }
+
+.grid {
+  position: absolute;
+  opacity: 0.2; }
+  .grid.on {
+    opacity: 0.8; }
+
+.sequence {
+  position: absolute; }
+
+.sequence-dot {
+  position: absolute;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.09);
+  border-radius: 50%; }
+  .sequence-dot.on {
+    background-color: rgba(255, 255, 255, 0.7); }

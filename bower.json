@@ -1,0 +1,14 @@
+{
+  "name": "arpong",
+  "description": "arpong",
+  "main": "./app/index.js",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/bower_components",
+    "test",
+    "tests"
+  ]
+}
