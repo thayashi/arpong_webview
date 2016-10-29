@@ -232,3 +232,11 @@ var AppView = Backbone.View.extend({
 
 var app = new AppView;
 app.render();
+
+window.changeBackgroundImage = function(num) {
+  $('.app-body').css({
+    'background-image': 'url(../img/' +  num + '.png)'
+  })
+
+};
+
